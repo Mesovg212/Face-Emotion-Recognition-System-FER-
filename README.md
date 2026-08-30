@@ -226,3 +226,27 @@ P           Pause / Resume
 Space       Step through frames when paused
 R           Reset analysis
 
+Limitations
+
+The system has several limitations:
+
+The model was trained using the RAVDESS dataset, which contains controlled recordings.
+The dataset was created using professional actors and may not fully represent spontaneous real-world emotions.
+Lighting, camera angle, face position, and partial face occlusion can affect recognition performance.
+Complex or mixed emotions may be difficult to classify into a single category.
+The reported evaluation uses a validation set rather than an independent test set.
+Real-time performance depends on the available CPU/GPU hardware.
+
+Academic Project
+
+This project was developed as a Computer Engineering graduation project at:
+
+Sakarya University of Applied Sciences
+Faculty of Technology
+Department of Computer Engineering
+
+Copyright
+Copyright © 2026 Mesovg. All rights reserved.
+
+This project is publicly available for viewing and educational/reference purposes. The source code may not be copied, modified, distributed, or used in other projects without prior permission from the copyright holder.
+
